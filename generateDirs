@@ -1,0 +1,10 @@
+#!/bin/bash 
+for i in {1..10}
+do
+	mkdir Week$i
+	echo "#Week$i" >> Week$i/README.md
+	mkdir Week$i/Prework
+	echo "##Prework" >> Week$i/Prework/README.md
+	mkdir Week$i/ProblemSet
+	echo "##ProblemSet" >> Week$i/ProblemSet/README.md
+done
